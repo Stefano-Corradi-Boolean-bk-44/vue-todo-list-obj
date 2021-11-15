@@ -1,0 +1,80 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: brown;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+} 
+
+#app{
+  padding-top: 50px;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#app h1{
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+#app input{
+  width: 100%;
+  line-height: 30px;
+  padding: 15px;
+  border-radius: 10px;
+  border:0;
+  background-color: rgba(255,255,255,.8);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .3);
+  transition: all .5s;
+  margin-bottom: 30px;
+}
+
+#app input:hover{
+  background-color: white;
+}
+
+ul{
+  list-style: none;
+}
+
+ul li{
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  margin-bottom: 10px;
+}
+
+ul li:last-child{
+  border-bottom: none;
+}
+
+ul li i{
+  opacity: .5;
+  transition: all .5s;
+  cursor: pointer;
+}
+
+ul li i:hover{
+  opacity: 1;
+}
+
+li p{
+  transition: all .3s;
+}
+
+li p:hover{
+  color: yellow;
+  cursor: pointer;
+}
+
+li p.done{
+  text-decoration: line-through;
+  color: #5D2A2A
+}
